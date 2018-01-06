@@ -20,6 +20,12 @@ bot.on('message', message => {
         message.reply("Malpoli !");
         console.log("Quelqu'un à dis tg");
     }
+    
+    
+    if (message.content === "Océane"){
+        message.reply("Est une princesse !");
+        console.log("Océane/princesse !");
+    }    
       
 
     if (message.content === "Salut"){
