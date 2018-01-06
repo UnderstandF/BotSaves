@@ -30,7 +30,7 @@ bot.on('message', message => {
     if (message.content === "inutile"){
         message.reply("Je ne suis pas inutile!");
         console.log("Inutile");
-      
+    }  
 
     if (message.content === "Salut"){
         message.reply("Bien le bonjour.");
