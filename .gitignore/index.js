@@ -22,9 +22,9 @@ bot.on('message', message => {
     }
     
     
-    if (message.content === "Océane"){
-        message.reply("Est une princesse !");
-        console.log("Océane/princesse !");
+    if (message.content === "Je t'aime bot"){
+        message.reply("Moi aussi !");
+        console.log("Quelqu'un aime mon bot !");
     }    
       
 
