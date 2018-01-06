@@ -4,7 +4,7 @@ const bot = new Discord.Client();
 var prefix = ('*')
 
 bot.on('ready', function() {
-    bot.user.setGame("Summoners Wars");
+    bot.user.setGame("Programmer");
     console.log("Connectedç");
 });
 
