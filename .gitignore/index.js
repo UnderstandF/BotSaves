@@ -25,7 +25,11 @@ bot.on('message', message => {
     if (message.content === "Je t'aime bot"){
         message.reply("Moi aussi !");
         console.log("Quelqu'un aime mon bot !");
-    }    
+    }
+    
+    if (message.content === "inutile"){
+        message.reply("Je ne suis pas inutile!");
+        console.log("Inutile");
       
 
     if (message.content === "Salut"){
