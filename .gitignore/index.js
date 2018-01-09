@@ -17,7 +17,7 @@ bot.on('message', message => {
     }
 
     if (message.content === "Tg"){
-        message.reply("Malpoli !");
+        message.reply("Minier !");
         console.log("Quelqu'un à dis tg");
     }
     
