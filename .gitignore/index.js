@@ -33,7 +33,7 @@ bot.on('message', message => {
         console.log("Inutile");
     }
     
-    If (message.content === "Suce"){
+    if (message.content === "Suce"){
         message.reply("Ma /n bite!");
         console.log("bite");
     }
