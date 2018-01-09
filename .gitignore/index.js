@@ -34,8 +34,7 @@ bot.on('message', message => {
     }
     
     if (message.content === "Suce"){
-        message.reply("Ma \n bite!");
-        console.log("bite");
+        message.channel.sendMessage("Ma \n bite!");
     }
 
     if (message.content === "Salut"){
