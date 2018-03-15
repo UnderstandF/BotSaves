@@ -11,14 +11,17 @@ bot.on('ready', function() {
 bot.login("MzY5MTcwNDU4NzMxNjEwMTEz.DTGRVw.PU1aH8ncvLMTRdjc2WaaiU1aVoY");
 
 
+if(command === "ping") {
+    const m = await message.channel.send("Ping?");
+    m.edit(`Pong! Latency is ${m.createdTimestamp - message.createdTimestamp}ms. API Latency is ${Math.round(client.ping)}ms`);
+  }
+
+
+
+
 bot.on('message', message => {
     if (message.content === prefix + "help"){
         message.channel.sendMessage("Liste des commandes: \n -*help");
-    }
-
-    if (message.content === "Tg"){
-        message.reply("Minier !");
-        console.log("Quelqu'un à dis tg");
     }
     
     
